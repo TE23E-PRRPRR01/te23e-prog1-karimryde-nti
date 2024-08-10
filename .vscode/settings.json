@@ -13,15 +13,11 @@
     "editor.guides.bracketPairs": "active",
     "csharp.suppressBuildAssetsNotification": true,
     "git.postCommitCommand": "sync",
-    "sessionlogger.enabled": true,
+    "sessionlogger.enabled": false,
     "csharp.debug.console": "externalTerminal",
     "csharp.referencesCodeLens.enabled": false,
     "explorer.compactFolders": false,
     "explorer.sortOrderLexicographicOptions": "unicode",
-    "markdox.urls": [
-        "https://github.com/krank/csharp-ref.git",
-        "https://gitlab.com/karye/prrprr01-te.git"
-    ],
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
     }
