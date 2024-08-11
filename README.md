@@ -1,15 +1,25 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15528233&assignment_repo_type=AssignmentRepo)
 # C# i Visual Studio Code
-VS Code är ett snabbt och lättanvänt IDE som du kan skapa ditt C#-projekt med.
+VS Code är ett snabbt och lättanvänt IDE för att skapa C#-projekt. Det är enkelt att komma igång och det finns många tillägg som gör det enklare att skapa och underhålla projekt.
 
-## Förberedelser
+## Installera git och Dotnet 7
+För att kunna använda Visual Studio Code för att skapa C#-projekt behöver du installera **git** och **Dotnet 7**.
 
-### Installera och ställ in VS Code
+> Kör följande kommandon i **Windows Powershell**:
 
-1. Installera [git](https://git-scm.com/downloads)
-2. Installera [Dotnet 7](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.400-windows-x64-installer)
+```Powershell
+winget install git.git
+winget install Microsoft.DotNet.SDK.7
+```
 
-### Installera följande tillägg i VS Code
+Eller gå till följande webbsidor och ladda ner och installera följande mjukvaror:
+
+1. [git](https://git-scm.com/downloads)
+2. [Dotnet 7](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.400-windows-x64-installer)
+
+## Installera tillägg i VS Code
+Med tillägg i VS Code förenklas arbetet med att skapa och underhålla projekt.  
+Följande tillägg kommer att installeras automatiskt:
 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) – Ger VS Code stöd för C#
 * [C# Toolbox of Productivity](https://marketplace.visualstudio.com/items?itemName=RichardZampieriprog.csharp-snippet-productivity) – Lägger till en del extra användbara genvägar och funktioner, tex för att skapa nya projekt och klasser
@@ -18,27 +28,40 @@ VS Code är ett snabbt och lättanvänt IDE som du kan skapa ditt C#-projekt med
 * [VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons) – Gör det lättare att känna igen filtyper
 * [XML Complete](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete) – För att jobba med WPF och Xaml
 * [RedHat XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) - För att jobba med WPF och Xaml
-* [GitHub Classroom](https://marketplace.visualstudio.com/items?itemName=GitHub.classroom) - För att arbeta med labbar och prov på Github Classroom
 * [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment) - För att kommentera metoder och klasser
 
-## Skapa C#-projekt
+## Ställ in VS Code från profil-fil
+För att få en bra och fungerande utvecklingsmiljö i VS Code, behöver VS Code inställningar ställas in. Detta görs genom att importera en profil.
 
-1. Skapa en ny mapp
-2. Öppna den tomma mappen i VS Code
-3. Öppna en ny terminal (ctrl + ö)
-4. Skapa grundkoden med:
+> Gå in i inställningar och välj **Profile** -> **Import profile** och välj filen *.vscode/Skola.code-profile*.
 
-```bash
-dotnet new console
+## Korta ned prompten i Powershell
+I terminalen i *VS Code* är prompten väldigt lång och gör det svårt att få en överblick.  
+Gör följande för att korta ned prompten i Terminalen/Konsolen i *VS Code*.
+
+> 1. Öppna terminalen och **skriv/kör** dessa rader:
+
+```powershell
+test-path $profile
+new-item -path $profile -itemtype file -force
+code $profile
 ```
-4. Koda och testa med:
 
-```bash
-dotnet run
+> 2. Skriv in följande i **fönstret** och spara:
+
+```powershell
+function prompt {
+   $p = Split-Path -leaf -path (Get-Location)
+   "$p> "
+}
 ```
 
-## Ladda upp till GitHub
+> 3. Avslutningsvis, i terminalen **skriv/kör**:
 
-1. Tryck på ikonen för Source Control
-2. Fyll i en commit meddelande som beskriver vad du har gjort
-3. Tryck på **Commit & Sync**
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+> 4. Starta om *VS Code*
+
+Referens: [How to display ony the current folder name](https://superuser.com/questions/446827/configure-windows-powershell-to-display-only-the-current-folder-name-in-the-shel).
