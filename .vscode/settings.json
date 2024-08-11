@@ -20,5 +20,12 @@
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
     },
-    "dotnet.codeLens.enableReferencesCodeLens": false
+    "files.associations": {
+        "*.xaml": "xml"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4
 }
