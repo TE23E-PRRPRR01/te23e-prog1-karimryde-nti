@@ -1,6 +1,5 @@
 {
     "workbench.iconTheme": "vscode-great-icons",
-    "git.openRepositoryInParentFolders": "always",
     "workbench.colorCustomizations": {
         "activityBar.background": "#3B1D61",
         "titleBar.activeBackground": "#532888",
@@ -8,11 +7,12 @@
     },
     "editor.codeLens": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "files.autoSave": "afterDelay",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
+    "files.autoSave": "afterDelay",
     "csharp.suppressBuildAssetsNotification": true,
-    "git.postCommitCommand": "sync",
     "sessionlogger.enabled": false,
     "csharp.debug.console": "externalTerminal",
     "explorer.compactFolders": false,
@@ -26,6 +26,9 @@
     "[xml]": {
         "editor.defaultFormatter": "redhat.vscode-xml"
     },
-    "editor.detectIndentation": false,
-    "editor.tabSize": 4
+    "git.openRepositoryInParentFolders": "always",
+    "git.postCommitCommand": "sync",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
 }
