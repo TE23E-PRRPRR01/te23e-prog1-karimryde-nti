@@ -6,21 +6,18 @@
         "titleBar.activeBackground": "#532888",
         "titleBar.activeForeground": "#FBF9FD"
     },
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    },
     "editor.codeLens": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
-    "files.autoSave": "afterDelay",
-    "csharp.suppressBuildAssetsNotification": true,
-    "sessionlogger.enabled": false,
-    "csharp.debug.console": "externalTerminal",
     "explorer.compactFolders": false,
     "explorer.sortOrderLexicographicOptions": "unicode",
-    "workbench.editorAssociations": {
-        "*.md": "vscode.markdown.preview.editor"
-    },
+    "files.autoSave": "afterDelay",
     "files.associations": {
         "*.xaml": "xml"
     },
@@ -31,5 +28,10 @@
     "git.postCommitCommand": "sync",
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "csharp.suppressBuildAssetsNotification": true,
+    "csharp.debug.console": "externalTerminal",
+    "csharp.referencesCodeLens.enabled": false,
+    "redhat.telemetry.enabled": false
+    "sessionlogger.enabled": false,
 }
