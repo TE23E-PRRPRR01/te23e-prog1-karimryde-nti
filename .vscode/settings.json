@@ -15,10 +15,10 @@
     "git.postCommitCommand": "sync",
     "sessionlogger.enabled": false,
     "csharp.debug.console": "externalTerminal",
-    "csharp.referencesCodeLens.enabled": false,
     "explorer.compactFolders": false,
     "explorer.sortOrderLexicographicOptions": "unicode",
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
-    }
+    },
+    "dotnet.codeLens.enableReferencesCodeLens": false
 }
