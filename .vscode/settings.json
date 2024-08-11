@@ -20,5 +20,13 @@
     "explorer.sortOrderLexicographicOptions": "unicode",
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
-    }
+    },
+    "files.associations": {
+        "*.xaml": "xml"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4
 }
