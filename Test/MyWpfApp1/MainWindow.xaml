@@ -5,13 +5,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:MyWpfApp1"
     mc:Ignorable="d"
-    Title="MainWindow" Height="450" Width="800" Background="#DDD">
+    Title="MainWindow" Height="450" Width="800" Background="#DDD" >
     <StackPanel Margin="20" Background="#FFF">
-        <Label FontSize="24">Kontakter</Label>
-        <Label Margin="20 0 0 0">Förnamn</Label>
-        <TextBox Margin="20 0 0 10" Name="fnamn"></TextBox>
-        <Label Margin="20 0 0 0">Efternamn</Label>
-        <TextBox Margin="20 0 0 10" Name="enamn"></TextBox>
+        <Label Foreground="#000" FontSize="24">Kontakter</Label>
+        <Label Foreground="#000" Margin="20 0 0 0">Förnamn</Label>
+        <TextBox Background="#FFF" Margin="20 0 0 10" Name="fnamn"></TextBox>
+        <Label Foreground="#000" Margin="20 0 0 0">Efternamn</Label>
+        <TextBox Background="#FFF" Margin="20 0 0 10" Name="enamn"></TextBox>
         <Button Margin="20" Click="KlickOk">Ok</Button>
         <TextBlock Margin="20" Name="resultat" Background="#CCC" Height="100"></TextBlock>
     </StackPanel>
