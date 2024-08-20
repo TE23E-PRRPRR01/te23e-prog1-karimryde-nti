@@ -37,3 +37,5 @@ Console.WriteLine($"Du heter {namn}, är {ålder} år gammal och gillar {djur}."
 
 Console.WriteLine();
 Console.WriteLine("Tack för att du deltog i testet!");
+
+Console.WriteLine();
