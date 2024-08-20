@@ -27,3 +27,8 @@ else
 {
     Console.WriteLine("Du är myndig.");
 }
+
+Console.WriteLine();
+Console.Write("Vilket är ditt favoritdjur? ");
+string djur = Console.ReadLine();
+
