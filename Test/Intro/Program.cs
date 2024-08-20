@@ -32,3 +32,8 @@ Console.WriteLine();
 Console.Write("Vilket är ditt favoritdjur? ");
 string djur = Console.ReadLine();
 
+Console.WriteLine();
+Console.WriteLine($"Du heter {namn}, är {ålder} år gammal och gillar {djur}.");
+
+Console.WriteLine();
+Console.WriteLine("Tack för att du deltog i testet!");
