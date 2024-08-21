@@ -2,6 +2,14 @@
 Console.InputEncoding = System.Text.Encoding.Unicode;
 Console.OutputEncoding = System.Text.Encoding.Unicode;
 
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("Detta är en röd text.");
+
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.Blue;
+
+Console.WriteLine("Detta är en blå text på gul bakgrund.");
+
 // Skapa en array med några namn med dotnet-8 notation
 string[] namnLista = ["Kalle", "Pelle", "Nisse", "Olle"];
 
@@ -10,6 +18,7 @@ foreach (string namnet in namnLista)
 {
     Console.WriteLine($"Namn: {namnet}");
 }
+Console.ResetColor();  // Återställ färgerna till standard
 
 Console.Write("Hej, vad heter du? ");
 string namn = Console.ReadLine();

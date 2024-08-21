@@ -5,14 +5,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:MyWpfApp1"
     mc:Ignorable="d"
-    Title="MainWindow" Height="450" Width="800" Background="#DDD" >
-    <StackPanel Margin="20" Background="#FFF">
-        <Label Foreground="#000" FontSize="24">Kontakter</Label>
-        <Label Foreground="#000" Margin="20 0 0 0">Förnamn</Label>
-        <TextBox Background="#FFF" Margin="20 0 0 10" Name="fnamn"></TextBox>
-        <Label Foreground="#000" Margin="20 0 0 0">Efternamn</Label>
-        <TextBox Background="#FFF" Margin="20 0 0 10" Name="enamn"></TextBox>
-        <Button Margin="20" Click="KlickOk">Ok</Button>
-        <TextBlock Margin="20" Name="resultat" Background="#CCC" Height="100"></TextBlock>
+    Title="Min app" Width="800" Background="#DDD" >
+    <StackPanel>
+      <Label Content="Label" FontSize="30" Margin="5" />
+      <TextBox x:Name="input" Height="40" Text="TextBox" Margin="5" />
+      <Label Content="Label" FontSize="30" Margin="5" />
+      <TextBlock x:Name="output" Text="TextBlock..." FontSize="30" Margin="5" Height="200" Background="AliceBlue"/>
+      <Button Width="120" Height="50" Content="Button" Margin="5" Click="KlickOk" />
     </StackPanel>
 </Window>

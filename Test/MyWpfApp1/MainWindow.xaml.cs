@@ -23,6 +23,6 @@ public partial class MainWindow : Window
 
     private void KlickOk(object sender, RoutedEventArgs e)
     {
-        resultat.Text += "Hello, " + fnamn.Text + " " + enamn.Text + "!\n";
+        output.Text = "Hej";
     }
 }
