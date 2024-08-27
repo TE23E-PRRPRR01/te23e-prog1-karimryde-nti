@@ -11,7 +11,7 @@ string efternamn = Console.ReadLine();
 Console.WriteLine($"Hej! {förnamn} {efternamn}");
 
 // Är det Johnnie som loggar in?
-if (förnamn == "Johnnie")
+if (förnamn == "Åsa")
 {
     Console.WriteLine("Vad trevligt att du är tillbaka!");
 }
