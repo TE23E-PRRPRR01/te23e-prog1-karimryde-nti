@@ -46,10 +46,10 @@ if (answer == "y")
         Console.WriteLine("Plz use Duct Tape!");
     }
 }
-else
+else if (answer == "n")
 { // n = no
     Console.Write("Should it? (y/n)");
-    answer = Console.ReadLine();
+    answer = Console.ReadLine().ToLower(); // .ToUpper()
     if (answer == "y")
     {
         Console.WriteLine("Plz use WD-40!");
