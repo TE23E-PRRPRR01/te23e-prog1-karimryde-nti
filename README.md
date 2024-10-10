@@ -9,7 +9,7 @@ För att kunna använda Visual Studio Code för att skapa C#-projekt behöver du
 
 ```Powershell
 winget install git.git
-winget install Microsoft.DotNet.SDK.7
+winget install Microsoft.DotNet.SDK.8
 ```
 
 Eller gå till följande webbsidor och ladda ner och installera följande mjukvaror:
