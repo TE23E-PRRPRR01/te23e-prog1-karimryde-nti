@@ -38,4 +38,5 @@
     "redhat.telemetry.enabled": false,
     "sessionlogger.enabled": false,
     "dotnet.codeLens.enableReferencesCodeLens": false,
+    "dotnet.defaultSolution": "disable",
 }
