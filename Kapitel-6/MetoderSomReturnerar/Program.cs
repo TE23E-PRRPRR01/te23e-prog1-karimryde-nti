@@ -54,23 +54,21 @@ static string VändText(string text)
 /// </summary>
 static int LäsInHeltal()
 {
-    int tal = 0;
     while (true)
     {
         // Läs in från användaren
         string textSomBlirTal = Console.ReadLine();
 
         // Kolla om texten är ett tal
-        bool lyckades = int.TryParse(textSomBlirTal, out tal);
+        bool lyckades = int.TryParse(textSomBlirTal, out int tal);
         
         if (lyckades == true)
         {
-            break;
+            return tal;
         }
         else
         {
             Console.WriteLine("Fel! Vg ang ett heltal!");
         }
     }
-    return tal;
 }
