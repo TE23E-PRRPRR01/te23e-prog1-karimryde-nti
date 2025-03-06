@@ -1,0 +1,311 @@
+{
+    "file_types": [".cs"],
+    "criteria": [
+        {
+            "category": "Kontrollstrukturer, metoder, variabler, datastrukturer och algoritmer",
+            "steps": [
+                {
+                    "description": "Flera variabler, olika datatyper",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Variablerna används i lösningen",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns minst en if-else-sats",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns minst en loop",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns minst en metod",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns minst en array eller lista",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns minst en enkel algoritm (tex en loop/villkor med variabler och inmatning/utmatning)",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns minst en typkonvertering, tex int.Parse()",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Alla variabler i rätt scope (deklareras där de används inte högst upp)",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns flera if-else-satser (löser minst 3 olika problem)",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns flera loopar (löser minsta 3 olika problem)",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns en metod som returnerar resultat eller tar emot parametrar",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns en komplex algoritm (minst 4 nästlade block, tex en loop i loop och villkor inuti osv, kanske med array/lista)",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Använder olika typer av loopar",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns en metod som returnerar resultat och tar emot flera parametrar",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns array eller lista, och motiverar valet i kommentar",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns flera komplexa algoritmer, som använder flera olika kontrollstrukturer (se beskrivning ovan)",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns minst en metod som är generell och återanvändbar",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                }
+            ]
+        },
+        {
+            "category": "Konsekvent kodningsstil och tydlig namngivning",
+            "steps": [
+                {
+                    "description": "Finns namn på samma språk för variabler och metoder",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Några namn på variabler och metoder följer C# standard, dvs PascalCase för metoder och camelCase för variabler. Variabel på svenska är ok.",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Koden är ren och följer normer för kodstil och formatering (inga bortkommentarade delar, onödiga importeringar)",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Alla namn på variabler och metoder är tydliga och beskrivande.",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Alla namn på variabler och metoder följer C#-standard, dvs PascalCase för metoder och camelCase för variabler. Variabel på svenska är ok. Alla namn är på samma språk.",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Finns 1-2 metoder som ger koden struktur",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Koden uppdelad i metoder som skapar tydlig, god struktur (Tydligt uppdelat i olika delar, minimalt med global state, minimalt med data som skickas runt)",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Varje metod gör exakt ett jobb",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Koden uppdelad i metoder om max ca 20 kodrader. Väldigt lite logik direkt i Main / Program.cs / liknande",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                }
+            ]
+        },
+        {
+            "category": "Kommenterad källkod",
+            "steps": [
+                {
+                    "description": "Finns enstaka, korrekta, kommentarer",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "All kod är förklarad (inte varje rad, algoritmer eller kodblock har en kommentar, inte nödvändigt vid självklara delar).",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": "Ge exempel på var det saknas kommentarer."
+                },
+                {
+                    "description": "Finns också övergripande kommentarer som förklarar sammanhang, samt metodkommentarer om det finns metoder.",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": "Ge exempel på var det saknas kommentarer."
+                }
+            ]
+        },
+        {
+            "category": "Ett uttryckssätt som är anpassat för att interagera med användaren",
+            "steps": [
+                {
+                    "description": "Användaren får instruktioner",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Användaren får feedback på sina val (T.ex. 'Du valde 5, det var fel. Prova igen.').",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": "Ange var det saknas feedback."
+                },
+                {
+                    "description": "Övergripande instruktioner (T.ex. 'Ta dig till slutet av labyrinten', 'Samla poäng')",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Instruktioner för de flesta val/input/situationer",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Tydlig feedback efter de flesta val/inputs",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Instruktioner för alla val/input/situationer",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Tydlig feedback efter alla val/inputs",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                }
+            ]
+        },
+        {
+            "category": "Stabilt och robust",
+            "steps": [
+                {
+                    "description": "Koden är enkel och kraschar inte vid fel input (förutsätter att det går att göra inmatning)",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Har komplex algoritm och kraschar inte (flera block i varandra, minst 4 steg, tex en loop i loop och villkor, kanske med array)",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Metoder ändrar inte på statiska variablers värde",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Har flera komplexa algoritmer och kraschar inte",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Metoder läser inte statiska variablers värde",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                }
+            ]
+        },
+        {
+            "category": "Felsökning",
+            "steps": [
+                {
+                    "description": "Koden har inga syntaxfel (Kräver att det går att kompilera koden)",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Koden har inga uppenbara logiska fel",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Runtime-fel hindras av t.ex. try eller tryparse (Kräver att det finns en reell risk för runtimefel, t.ex. användarinput eller inläsning från fil)",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comments": ""
+                },
+                {
+                    "description": "Inga logiska fel kan hittas i koden (koden måste innehålla komplexa algoritmer, minst 200 kodrader). Ange om koden är tillräcklig komplex för att testa detta.",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comments": ""
+                }
+            ]
+        }
+    ]
+}
