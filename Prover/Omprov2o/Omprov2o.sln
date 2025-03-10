@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omprov2o", "Omprov2o.csproj", "{E850538E-2A01-1604-E5CD-E4489C62107F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E850538E-2A01-1604-E5CD-E4489C62107F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E850538E-2A01-1604-E5CD-E4489C62107F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E850538E-2A01-1604-E5CD-E4489C62107F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E850538E-2A01-1604-E5CD-E4489C62107F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5EE1B0F-D935-4B3F-B002-819F372E115D}
+	EndGlobalSection
+EndGlobal
